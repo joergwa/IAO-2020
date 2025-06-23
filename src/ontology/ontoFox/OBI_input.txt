@@ -45,11 +45,14 @@ http://purl.obolibrary.org/obo/OBI_0000312 #is_specified_output_of
 
 [Top level source term URIs and target direct superclass URIs]
 http://purl.obolibrary.org/obo/OBI_0000293 #has_specified_input
-subPropertyOf http://purl.obolibrary.org/obo/RO_0000057 #has participant
+subPropertyOf http://purl.obolibrary.org/obo/BFO_0000057 #has participant
 http://purl.obolibrary.org/obo/OBI_0000299 #has_specified_output
-subPropertyOf http://purl.obolibrary.org/obo/RO_0000057 #has participant
+subPropertyOf http://purl.obolibrary.org/obo/BFO_0000057 #has participant
 http://purl.obolibrary.org/obo/OBI_0000312 #is_specified_output_of
-subPropertyOf http://purl.obolibrary.org/obo/RO_0000056 #participates in
+subPropertyOf http://purl.obolibrary.org/obo/BFO_0000056 #participates in
+http://purl.obolibrary.org/obo/OBI_0000295 #is_specified_output_of
+subPropertyOf http://purl.obolibrary.org/obo/BFO_0000056 #participates in
+
 
 [Source term retrieval setting]
 

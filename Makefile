@@ -24,7 +24,7 @@ DEV	:= $(OBO)/iao/dev
 ROBOT	:= java -jar build/robot.jar
 
 # release vars
-TODAY	:= $(shell date +%Y-%m-%d)
+TODAY	:= $(shell date +%Y-%m-%d)-bfo2020
 TS	:= $(shell date +'%d:%m:%Y %H:%M')
 
 # directories
